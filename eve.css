@@ -13,6 +13,7 @@ body{
     align-items: center;
 }
 .count{
+    width:90%;
     font-family: 'Montserrat', sans-serif;
     color: white;
     display: flex;
@@ -20,16 +21,18 @@ body{
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom:200px;
 }
 .count h2{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 10em;
+    font-size: 4em;
     line-height: 1em;
 }
 .countdown{
     display: flex;
     margin-top: 5px;
+    flex-wrap:wrap;
 }
 .countdown div{
     position: relative;
@@ -42,7 +45,7 @@ body{
     font-weight: 500;
     background: white;
     color: black;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 .countdown div:before{
     content:  '';
@@ -99,7 +102,7 @@ body{
     transform-origin: bottom left;
 }
 .container{
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
