@@ -188,18 +188,6 @@ h1{
     justify-content: center;
     text-align: center;
 }
-.gallery{
-    height: 500px;
-    background: rgba(255, 251, 251, 0.089);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 100px;
-    border-radius: 20px;
-    box-shadow: white;
-}
 section{
     width: 100%;
     display: flex;
